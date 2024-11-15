@@ -16,7 +16,7 @@ public class Cheers {
                        }
                 }
                 if(!printed){
-                        System.out.println("Give me a "+ str.charAt(i) +": "+ str.charAt(i) +"!");                       
+                        System.out.println("Give me a  "+ str.charAt(i) +": "+ str.charAt(i) +"!");                       
                 }
                 printed = false;
                 
