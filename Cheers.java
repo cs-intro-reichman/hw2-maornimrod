@@ -8,7 +8,7 @@ public class Cheers {
 
             for (int i = 0; i < str.length(); i++) {
 
-                for( int j = 0; j<letters.length()-1; j++){
+                for( int j = 0; j<letters.length(); j++){
                         if(str.charAt(i) == letters.charAt(j)){
                                System.out.println("Give me an "+ str.charAt(i) +": "+ str.charAt(i) +"!");
                                printed = true;
