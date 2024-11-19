@@ -6,8 +6,7 @@ public class CalcPi {
 
 		for (int i = 0; i < run; i++) {
 			if(i%2 ==0){
-				sum += (double) (1.0/(2*i+1));
-				
+				sum += (double) (1.0/(2*i+1));				
 			}
 			else{
 				sum -= (double) (1.0/(2*i+1));

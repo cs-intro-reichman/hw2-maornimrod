@@ -5,9 +5,11 @@ public class Collatz {
 		String VorC = args[1];
 		int sequence, counter;
 		
+		//loop for each row
 		for (int i = 0; i < timesRun; i++) {
 			sequence = i+1;
 			counter = 0;
+			//loop for checking each number until its 1
 			do {
 				counter++;
 				if("v".equals(VorC)){
@@ -22,6 +24,7 @@ public class Collatz {
 			} while (sequence>1); 				
 			System.out.print(sequence+ " ");
 
+			//checking for need to print
 			if("v".equals(VorC)){
 				System.out.println("(" + (counter+1) + ")");
 			}
