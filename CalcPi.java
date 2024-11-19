@@ -12,7 +12,7 @@ public class CalcPi {
 				sum -= (double) (1.0/(2*i+1));
 			}
 		}
-		System.err.println("pi according to Java: "+ Math.PI);
-		System.err.println("pi, approximated:     "+ (sum*4));
+		System.out.println("pi according to Java: "+ Math.PI);
+		System.out.println("pi, approximated:     "+ (sum*4));
 	}
 }
