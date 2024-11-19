@@ -13,6 +13,6 @@ public class CalcPi {
 			}
 		}
 		System.err.println("pi according to Java: "+ Math.PI);
-		System.err.println("pi, approximated: "+ (sum*4));
+		System.err.println("pi, approximated:     "+ (sum*4));
 	}
 }
