@@ -6,7 +6,8 @@ public  class  TestRandom {
 	   int countAbove =0;
 	   int countBelow =0;
 	   double rndNumber;
-
+	   
+	   //counting the times for >0.5 and <=0.5
 	   for(int i = 0; i<N; i++){
 		rndNumber = Math.random();
 		if(rndNumber> 0.5){
@@ -20,6 +21,7 @@ public  class  TestRandom {
 	   System.out.println("> 0.5: " + countAbove+ " times");
 	   System.out.println("<= 0.5: " + countBelow+ " times");
 
+	   //calculating the ratio by dividing the numbers
 	   if (countAbove >0 && countBelow > 0) {
 		   double ratio = (double) countAbove / countBelow;
 		   if(ratio>1){
